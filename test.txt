@@ -1,0 +1,3308 @@
+[
+  {
+    "last_persisted_time": 1704170234000,
+    "username_count": 1,
+    "description": "[FB] DLP - Detect Sending Labled Documents to External Recipients\n",
+    "rules": [
+      {
+        "id": 145760,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 2,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343136
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704170174730,
+    "magnitude": 3,
+    "last_updated_time": 1704170174962,
+    "credibility": 2,
+    "id": 124649,
+    "categories": [
+      "Data Loss Prevention Policy Violation",
+      "File Share Attempt"
+    ],
+    "severity": 6,
+    "policy_category_count": 1,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "Office365",
+        "type_id": 397,
+        "name": "Fulbright - Office365",
+        "id": 6774
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704170176000,
+    "offense_type": 3,
+    "relevance": 2,
+    "domain_id": 11,
+    "offense_source": "uyen.phan@fulbright.edu.vn",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169255000,
+    "username_count": 0,
+    "description": "[FB] Web Application Attack | Blocked\n",
+    "rules": [
+      {
+        "id": 154616,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 1,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      324052
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704169196486,
+    "magnitude": 4,
+    "last_updated_time": 1704169196697,
+    "credibility": 2,
+    "id": 124647,
+    "categories": [
+      "Web Exploit"
+    ],
+    "severity": 7,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704169197000,
+    "offense_type": 0,
+    "relevance": 2,
+    "domain_id": 11,
+    "offense_source": "85.208.98.224",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169184000,
+    "username_count": 0,
+    "description": "Same Threat Detected on Same Host\n containing Adaptive Threat Protection Block\n",
+    "rules": [
+      {
+        "id": 137763,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 6,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      53461
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704166671927,
+    "magnitude": 4,
+    "last_updated_time": 1704169059638,
+    "credibility": 2,
+    "id": 124645,
+    "categories": [
+      "Trojan Detected",
+      "Malware Infection"
+    ],
+    "severity": 9,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704169060000,
+    "offense_type": 85,
+    "relevance": 1,
+    "domain_id": 0,
+    "offense_source": "JTI/Suspect.196817!2262ce8eeaf3",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704168793000,
+    "username_count": 1,
+    "description": "Hybrid Cloud Multiple Login Failures from Same Username\n containing Sign-in Activity - User Strong Auth Client Authentication Required\n",
+    "rules": [
+      {
+        "id": 144113,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 26,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      290127
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704168516695,
+    "magnitude": 2,
+    "last_updated_time": 1704168732969,
+    "credibility": 2,
+    "id": 124643,
+    "categories": [
+      "User Login Failure"
+    ],
+    "severity": 5,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "MicrosoftAzureActiveDirectory",
+        "type_id": 445,
+        "name": "Fulbright - Azure AD",
+        "id": 6865
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704168636000,
+    "offense_type": 3,
+    "relevance": 1,
+    "domain_id": 11,
+    "offense_source": "huyentrang.nguyen2@fulbright.edu.vn",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704168691000,
+    "username_count": 0,
+    "description": "[FB] Microsoft 365 Alert\n",
+    "rules": [
+      {
+        "id": 144014,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 4,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      1454
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704168600125,
+    "magnitude": 3,
+    "last_updated_time": 1704168610432,
+    "credibility": 2,
+    "id": 124642,
+    "categories": [
+      "Unknown",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "MicrosoftWindowsDefenderATP",
+        "type_id": 433,
+        "name": "Fulbright - M365 | Alert",
+        "id": 6866
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704168610000,
+    "offense_type": 89,
+    "relevance": 1,
+    "domain_id": 11,
+    "offense_source": "dl12258d4a-2e95-7ef3-3800-08dc0b47d989",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704168319000,
+    "username_count": 0,
+    "description": "[F][Normal] Worms : Port 445 Inbound\n",
+    "rules": [
+      {
+        "id": 100370,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 14,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      343178
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "BVB_Zone.DC.AD_Zone",
+      "BVB_Zone.DC.Internal_Apps"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704167937291,
+    "magnitude": 2,
+    "last_updated_time": 1704168011045,
+    "credibility": 2,
+    "id": 124639,
+    "categories": [
+      "IP Protocol Anomaly",
+      "Access Denied"
+    ],
+    "severity": 2,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-255 :: epbanviet",
+        "id": 6194
+      },
+      {
+        "type_name": "CheckPoint",
+        "type_id": 3,
+        "name": "BVB-INT FW @ Checkpoint",
+        "id": 6889
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704167982000,
+    "offense_type": 0,
+    "relevance": 2,
+    "domain_id": 9,
+    "offense_source": "10.113.77.6",
+    "local_destination_address_ids": [
+      93043,
+      118154,
+      93137,
+      118152
+    ],
+    "local_destination_count": 4,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169876000,
+    "username_count": 1,
+    "description": "[Firewall] Compromised or manufacturer default password found in HTTP Basic Authentication\n",
+    "rules": [
+      {
+        "id": 142370,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 5,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343177
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704167870894,
+    "magnitude": 2,
+    "last_updated_time": 1704167934011,
+    "credibility": 2,
+    "id": 124638,
+    "categories": [
+      "Login with username/password defaults successful"
+    ],
+    "severity": 4,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "PaSeries",
+        "type_id": 206,
+        "name": "OCB-INTERNET FW @ Palo Alto 01",
+        "id": 6063
+      },
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704167872000,
+    "offense_type": 1,
+    "relevance": 1,
+    "domain_id": 8,
+    "offense_source": "123.30.133.17",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169274000,
+    "username_count": 1,
+    "description": "[FB][PIM][Critical] Usage of emergency accounts\n",
+    "rules": [
+      {
+        "id": 144013,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 3,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      342271
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704166960390,
+    "magnitude": 4,
+    "last_updated_time": 1704166960893,
+    "credibility": 2,
+    "id": 124637,
+    "categories": [
+      "Admin Login Attempt",
+      "Web Service Login Succeeded"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "MicrosoftAzureActiveDirectory",
+        "type_id": 445,
+        "name": "Fulbright - Azure AD",
+        "id": 6865
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704166961000,
+    "offense_type": 3,
+    "relevance": 2,
+    "domain_id": 11,
+    "offense_source": "admin2@fuveduvn.onmicrosoft.com",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169094000,
+    "username_count": 0,
+    "description": "Adaptive Threat Protection Block\n",
+    "rules": [
+      {
+        "id": 126114,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 5,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      53461
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704166671927,
+    "magnitude": 3,
+    "last_updated_time": 1704169059427,
+    "credibility": 2,
+    "id": 124636,
+    "categories": [
+      "Trojan Detected"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704166673000,
+    "offense_type": 0,
+    "relevance": 1,
+    "domain_id": 0,
+    "offense_source": "10.96.153.21",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704168070000,
+    "username_count": 1,
+    "description": "Multiple Login Failures for the Same User\n containing Failure Audit: An account failed to log on\n",
+    "rules": [
+      {
+        "id": 100056,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 33,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343170
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "CMCTSSG_Zone.Server_Production"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704165574480,
+    "magnitude": 5,
+    "last_updated_time": 1704165616397,
+    "credibility": 3,
+    "id": 124632,
+    "categories": [
+      "User Login Failure"
+    ],
+    "severity": 5,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-114 :: epcmctssg",
+        "id": 317
+      },
+      {
+        "type_name": "WindowsAuthServer",
+        "type_id": 12,
+        "name": "CMCTS-File Server @ 10.222.222.62",
+        "id": 323
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704165617000,
+    "offense_type": 3,
+    "relevance": 6,
+    "domain_id": 1,
+    "offense_source": "CMCADMIN",
+    "local_destination_address_ids": [
+      54
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704167468000,
+    "username_count": 0,
+    "description": "DNS: Microsoft Windows Internet Connection Sharing Denial of Service\n",
+    "rules": [
+      {
+        "id": 100066,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 1,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343168
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.OCB_public"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704165124435,
+    "magnitude": 6,
+    "last_updated_time": 1704165124435,
+    "credibility": 3,
+    "id": 124630,
+    "categories": [
+      "Misc DoS"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "IntruShield",
+        "type_id": 25,
+        "name": "OCB-IPS @ McAfee NSP",
+        "id": 6576
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704165126000,
+    "offense_type": 2,
+    "relevance": 5,
+    "domain_id": 8,
+    "offense_source": "DNS: Microsoft Windows Internet Connection Sharing Denial of Service",
+    "local_destination_address_ids": [
+      70236
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169244000,
+    "username_count": 0,
+    "description": "Firewall Log\n",
+    "rules": [
+      {
+        "id": 154616,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 22,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      339425,
+      343175,
+      297088,
+      324052,
+      341083,
+      343162
+    ],
+    "source_count": 6,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704164403489,
+    "magnitude": 3,
+    "last_updated_time": 1704169196486,
+    "credibility": 2,
+    "id": 124627,
+    "categories": [
+      "Suspicious Activity"
+    ],
+    "severity": 7,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "MicrosoftAzureWAFCustom",
+        "type_id": 4031,
+        "name": "Fulbright - Azure WAF",
+        "id": 6864
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704164405000,
+    "offense_type": 2,
+    "relevance": 1,
+    "domain_id": 11,
+    "offense_source": "Firewall Log",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169726000,
+    "username_count": 1,
+    "description": "Same Threat Detected on Same Host\n containing Access Protection Event\n",
+    "rules": [
+      {
+        "id": 137763,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 25,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      272535,
+      293776,
+      290187
+    ],
+    "source_count": 3,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "BVB_Zone.DC.App_Zone",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704164049224,
+    "magnitude": 5,
+    "last_updated_time": 1704169605277,
+    "credibility": 2,
+    "id": 124625,
+    "categories": [
+      "Malware Infection",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-255 :: epbanviet",
+        "id": 6194
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "BVB-ENDPOINT @ McAfee EPO",
+        "id": 6198
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704164050000,
+    "offense_type": 85,
+    "relevance": 4,
+    "domain_id": 9,
+    "offense_source": "IDS_AP_RULE_PREVENT_CREATE_DELETE_RENAME_HARDLINK_STARTUPFILES_LINUX",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704166264000,
+    "username_count": 1,
+    "description": "Local IRC Server Detected\n",
+    "rules": [
+      {
+        "id": 100225,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 2,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      343153
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "OCB_Zone.VPN_Zone",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704163989101,
+    "magnitude": 5,
+    "last_updated_time": 1704163989740,
+    "credibility": 2,
+    "id": 124624,
+    "categories": [
+      "Firewall Permit",
+      "IRC Session Opened"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "PaSeries",
+        "type_id": 206,
+        "name": "OCB-INTERNET FW @ Palo Alto 01",
+        "id": 6063
+      },
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704163990000,
+    "offense_type": 0,
+    "relevance": 4,
+    "domain_id": 8,
+    "offense_source": "10.60.40.158",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704166264000,
+    "username_count": 1,
+    "description": "Local IRC Server Detected\n",
+    "rules": [
+      {
+        "id": 137863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 3,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      343153
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "OCB_Zone.VPN_Zone",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704163989101,
+    "magnitude": 5,
+    "last_updated_time": 1704163989740,
+    "credibility": 2,
+    "id": 124623,
+    "categories": [
+      "IRC/IM Policy Violation",
+      "Firewall Permit",
+      "IRC Session Opened"
+    ],
+    "severity": 8,
+    "policy_category_count": 1,
+    "log_sources": [
+      {
+        "type_name": "PaSeries",
+        "type_id": 206,
+        "name": "OCB-INTERNET FW @ Palo Alto 01",
+        "id": 6063
+      },
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704163990000,
+    "offense_type": 1,
+    "relevance": 4,
+    "domain_id": 8,
+    "offense_source": "192.90.48.85",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704166264000,
+    "username_count": 0,
+    "description": "Behavior Monitoring: New startup program\n",
+    "rules": [
+      {
+        "id": 126114,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 1,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343157
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704163956533,
+    "magnitude": 2,
+    "last_updated_time": 1704163956533,
+    "credibility": 2,
+    "id": 124622,
+    "categories": [
+      "Malicious Software"
+    ],
+    "severity": 4,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "TrendApexCentral",
+        "type_id": 457,
+        "name": "CMCTS-Trend Micro Apex Central",
+        "id": 4963
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704163958000,
+    "offense_type": 0,
+    "relevance": 1,
+    "domain_id": 1,
+    "offense_source": "10.223.48.126",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169907000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 58,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 3,
+    "follow_up": false,
+    "source_address_ids": [
+      341151,
+      261669,
+      341180
+    ],
+    "source_count": 3,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "OCB_Zone.DC",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704163890644,
+    "magnitude": 5,
+    "last_updated_time": 1704169855710,
+    "credibility": 2,
+    "id": 124621,
+    "categories": [
+      "Information Leak",
+      "Unknown Evasion Event",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704163891000,
+    "offense_type": 1,
+    "relevance": 5,
+    "domain_id": 8,
+    "offense_source": "10.96.10.180",
+    "local_destination_address_ids": [
+      112836
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704165662000,
+    "username_count": 0,
+    "description": "Same Threat Detected on Same Host\n containing Exploit Prevention Files/Process/Registry violation detected\n",
+    "rules": [
+      {
+        "id": 137763,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 7,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      53461
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704163208106,
+    "magnitude": 4,
+    "last_updated_time": 1704163213919,
+    "credibility": 2,
+    "id": 124620,
+    "categories": [
+      "Potential Misc Exploit",
+      "Malware Infection"
+    ],
+    "severity": 9,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704163214000,
+    "offense_type": 85,
+    "relevance": 1,
+    "domain_id": 0,
+    "offense_source": "Unmanaged Powershell Detected - II",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704165060000,
+    "username_count": 1,
+    "description": "Hybrid Cloud Multiple Login Failures from Same Username\n containing Sign-in Activity - Multi-factor Authentication Expired\n",
+    "rules": [
+      {
+        "id": 144113,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 21,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      343150
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704162605445,
+    "magnitude": 2,
+    "last_updated_time": 1704162771657,
+    "credibility": 2,
+    "id": 124617,
+    "categories": [
+      "User Login Failure"
+    ],
+    "severity": 5,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "MicrosoftAzureActiveDirectory",
+        "type_id": 445,
+        "name": "Fulbright - Azure AD",
+        "id": 6865
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704162724000,
+    "offense_type": 3,
+    "relevance": 1,
+    "domain_id": 11,
+    "offense_source": "lan.pham@fulbright.edu.vn",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169274000,
+    "username_count": 1,
+    "description": "Same Threat Detected on Multiple Hosts (by Machine Identifier)\n containing Exploit Prevention Files/Process/Registry violation detected\n",
+    "rules": [
+      {
+        "id": 153763,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 28,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      284069,
+      328709,
+      292920,
+      297921,
+      338441,
+      303567,
+      53461,
+      286689,
+      332737,
+      337608,
+      284134,
+      297954,
+      287440,
+      338033
+    ],
+    "source_count": 14,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704158862141,
+    "magnitude": 5,
+    "last_updated_time": 1704166808545,
+    "credibility": 2,
+    "id": 124608,
+    "categories": [
+      "Potential Misc Exploit",
+      "Malware Infection"
+    ],
+    "severity": 9,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704160589000,
+    "offense_type": 85,
+    "relevance": 3,
+    "domain_id": 0,
+    "offense_source": "Unmanaged Powershell Detected",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704162682000,
+    "username_count": 0,
+    "description": "Inbound TCP OTX Segment Volume Too High\n",
+    "rules": [
+      {
+        "id": 100068,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 4,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      201361
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704160418592,
+    "magnitude": 4,
+    "last_updated_time": 1704160568574,
+    "credibility": 2,
+    "id": 124607,
+    "categories": [
+      "TCP DoS"
+    ],
+    "severity": 9,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "IntruShield",
+        "type_id": 25,
+        "name": "BVB-IPS @ McAfee NSP",
+        "id": 6890
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704160579000,
+    "offense_type": 2,
+    "relevance": 1,
+    "domain_id": 9,
+    "offense_source": "Inbound TCP OTX Segment Volume Too High",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704162682000,
+    "username_count": 1,
+    "description": "[FB] Microsoft 365 Alert\n",
+    "rules": [
+      {
+        "id": 144014,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 5,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      1454
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 2,
+    "start_time": 1704160488036,
+    "magnitude": 3,
+    "last_updated_time": 1704160488232,
+    "credibility": 2,
+    "id": 124606,
+    "categories": [
+      "Suspicious Activity",
+      "Unknown"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "MicrosoftWindowsDefenderATP",
+        "type_id": 433,
+        "name": "Fulbright - M365 | Alert",
+        "id": 6866
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704160488000,
+    "offense_type": 89,
+    "relevance": 1,
+    "domain_id": 11,
+    "offense_source": "dl12258d4a-2e95-7ef3-0800-08dc0b34d9cc",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704163856000,
+    "username_count": 1,
+    "description": "[FB] DLP - Share/Upload Unlabel Document to Outside\n",
+    "rules": [
+      {
+        "id": 145758,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 50,
+    "flow_count": 0,
+    "assigned_to": "bxthai",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      290127
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704160262709,
+    "magnitude": 3,
+    "last_updated_time": 1704161711389,
+    "credibility": 2,
+    "id": 124605,
+    "categories": [
+      "File Upload Success",
+      "Data Loss Prevention Policy Violation",
+      "File Upload Attempt"
+    ],
+    "severity": 5,
+    "policy_category_count": 1,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-8 :: qconsol",
+        "id": 63
+      },
+      {
+        "type_name": "Office365",
+        "type_id": 397,
+        "name": "Fulbright - Office365",
+        "id": 6774
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704160263000,
+    "offense_type": 3,
+    "relevance": 2,
+    "domain_id": 11,
+    "offense_source": "phuong.phung@fulbright.edu.vn",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169515000,
+    "username_count": 0,
+    "description": "Detected An Unknown / Unseen Process (Based On The Process Name)\n containing Success Audit: A new process has been created\n",
+    "rules": [
+      {
+        "id": 123113,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 125,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      271
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "CMCTSSG_Zone.Server_Production"
+    ],
+    "source_network": "CMCTSSG_Zone.Server_Production",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704156803837,
+    "magnitude": 5,
+    "last_updated_time": 1704169487372,
+    "credibility": 3,
+    "id": 124597,
+    "categories": [
+      "Process Creation Success",
+      "Suspicious Windows Events"
+    ],
+    "severity": 6,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-114 :: epcmctssg",
+        "id": 317
+      },
+      {
+        "type_name": "WindowsAuthServer",
+        "type_id": 12,
+        "name": "CMCTS-File Server @ 10.222.222.62",
+        "id": 323
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704156804000,
+    "offense_type": 0,
+    "relevance": 5,
+    "domain_id": 1,
+    "offense_source": "10.222.222.62",
+    "local_destination_address_ids": [
+      54
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169154000,
+    "username_count": 0,
+    "description": "Process Created a Thread into System Process\n preceded by Process Created a Thread into Another Process\n preceded by Process Created a Thread into lsass Process\n preceded by Detected a Possible Credential Dumping Tool\n containing CreateRemoteThread\n",
+    "rules": [
+      {
+        "id": 122213,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 122313,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 122363,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 124013,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 708,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      262088
+    ],
+    "source_count": 1,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "CMCTSSG_Zone.DMZ_Network"
+    ],
+    "source_network": "CMCTSSG_Zone.DMZ_Network",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704156443368,
+    "magnitude": 6,
+    "last_updated_time": 1704169138769,
+    "credibility": 3,
+    "id": 124596,
+    "categories": [
+      "Suspicious Windows Events",
+      "Misc Malware"
+    ],
+    "severity": 9,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-114 :: epcmctssg",
+        "id": 317
+      },
+      {
+        "type_name": "WindowsAuthServer",
+        "type_id": 12,
+        "name": "CMCTS-Server API Landingpage @ 10.222.221.34",
+        "id": 7313
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704156444000,
+    "offense_type": 0,
+    "relevance": 6,
+    "domain_id": 1,
+    "offense_source": "10.222.221.34",
+    "local_destination_address_ids": [
+      115545
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704170208000,
+    "username_count": 1,
+    "description": "Same Threat Detected on Multiple Hosts\n preceded by Same Threat Detected on Multiple Hosts (by Machine Identifier)\n preceded by Same Threat Detected on Same Network Different Hosts\n preceded by Same Threat Detected on Same Host\n containing Access Protection Event\n",
+    "rules": [
+      {
+        "id": 137763,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 153763,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 138663,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 139363,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 2220,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": false,
+    "source_address_ids": [
+      298617,
+      307152,
+      304192,
+      321161,
+      343129,
+      292358,
+      313418,
+      282214,
+      338819,
+      293205,
+      335954,
+      285195,
+      343096,
+      338476,
+      343183,
+      320738,
+      336433,
+      240920,
+      314487,
+      341936,
+      319722,
+      298678,
+      287130,
+      324176,
+      314676,
+      303349,
+      343139,
+      307118,
+      334199,
+      229140,
+      314264,
+      306935,
+      325830,
+      343151,
+      339174,
+      335237,
+      310955,
+      314932,
+      343179,
+      311398,
+      343105,
+      342227,
+      314227,
+      313816,
+      308340,
+      298735,
+      313394,
+      332844,
+      324172,
+      284588,
+      340550,
+      250680,
+      343100,
+      308596,
+      280952,
+      319534,
+      305813,
+      314083,
+      315809,
+      309466,
+      322131,
+      328701,
+      343147,
+      342417,
+      298488,
+      337451,
+      343181,
+      341353,
+      311186,
+      313795,
+      343082,
+      313326,
+      343009,
+      314065,
+      343091,
+      315730,
+      339111,
+      260524,
+      315165,
+      342649,
+      279722,
+      306074,
+      343085,
+      343149,
+      334112,
+      320336,
+      343088,
+      298904,
+      324725,
+      312747,
+      316437,
+      343131,
+      314409,
+      305866,
+      341982,
+      313961,
+      316919,
+      315664,
+      313608,
+      53461,
+      295667,
+      340624,
+      306691,
+      322454,
+      314927,
+      340713,
+      306390,
+      305792,
+      339057,
+      341150,
+      315266,
+      341723,
+      342104,
+      340682,
+      336707,
+      314370,
+      339376,
+      295679,
+      286084,
+      300228,
+      343092,
+      313971,
+      338489,
+      295000,
+      312651,
+      314262,
+      338522,
+      314936,
+      313305,
+      303403,
+      305682,
+      339892,
+      322467,
+      343145,
+      299301,
+      314903,
+      314215,
+      343176,
+      313898,
+      319621,
+      343171,
+      336074,
+      310949,
+      305759,
+      290518,
+      343154,
+      307588,
+      305819,
+      313413,
+      295148,
+      336073,
+      329061,
+      322559,
+      305612,
+      314861,
+      314630,
+      287542,
+      303107,
+      343184,
+      315606,
+      300148,
+      314034,
+      336801,
+      324690,
+      335942,
+      304548,
+      315888,
+      323543,
+      341440,
+      333103,
+      297610,
+      305596,
+      343182,
+      340836,
+      342903,
+      283152,
+      286690,
+      319354,
+      284063,
+      340886,
+      313622,
+      314913,
+      302885,
+      328964,
+      305486,
+      335939,
+      304189,
+      306399,
+      316251,
+      329992,
+      330619,
+      295576,
+      333736,
+      285593,
+      313128,
+      292898,
+      328970,
+      337034,
+      343124,
+      336344,
+      342630,
+      338433,
+      290508,
+      301032,
+      270066,
+      343140,
+      328415,
+      307269,
+      343180,
+      284820,
+      343112,
+      248670,
+      335956,
+      343089,
+      335539,
+      338773,
+      230008,
+      306442,
+      295645,
+      303322,
+      290744,
+      324960,
+      342796,
+      343169,
+      304188,
+      306350,
+      306490,
+      227013,
+      225939,
+      318640,
+      305958,
+      313767,
+      305617,
+      306314,
+      306300,
+      205635,
+      304187,
+      315498,
+      315938,
+      265666,
+      339197,
+      298707,
+      343167,
+      340647,
+      343156,
+      343159,
+      315236,
+      307052,
+      333738,
+      314332,
+      339270,
+      314889,
+      315747,
+      339530,
+      340848,
+      336076,
+      343086,
+      311027,
+      304547,
+      317897,
+      285741,
+      306394,
+      313587,
+      313632,
+      343163,
+      298692,
+      313539,
+      336000,
+      338478,
+      311034,
+      315343,
+      343134,
+      305424,
+      306377,
+      228200,
+      284877,
+      336083,
+      332673,
+      338761,
+      280336,
+      322464,
+      322210,
+      298901,
+      315102,
+      340189,
+      305714,
+      315032,
+      313846,
+      314805,
+      315234,
+      343173,
+      313832,
+      316174,
+      282892,
+      332742,
+      343160,
+      282809,
+      331321,
+      316142,
+      323095,
+      305185,
+      313876,
+      309660,
+      324672,
+      313760,
+      328899,
+      308404,
+      316172,
+      340719,
+      287153,
+      336078,
+      282813,
+      247410,
+      337305,
+      343144,
+      303833,
+      313378,
+      315681,
+      319633,
+      331349,
+      341127,
+      310944,
+      341129,
+      304447,
+      343152,
+      290547,
+      337496,
+      319415,
+      298811,
+      296136,
+      297807,
+      310115,
+      311005,
+      313890,
+      314108,
+      305689,
+      281967,
+      340443,
+      343133,
+      332636,
+      316262,
+      315427,
+      316186,
+      319429,
+      342474,
+      284277,
+      315056,
+      296537,
+      314862,
+      306600,
+      317639,
+      314168,
+      343084,
+      338759,
+      316840,
+      330855,
+      343113,
+      310981,
+      328950,
+      343166,
+      343114,
+      343090,
+      315561,
+      304076,
+      298690,
+      343164,
+      310980,
+      294082,
+      310963,
+      319411,
+      319516,
+      291759,
+      290522,
+      335216,
+      324126,
+      319325,
+      305716,
+      319413,
+      343155,
+      319648,
+      343158,
+      323486,
+      310626,
+      311055,
+      314158,
+      319432,
+      334814,
+      296054,
+      300183,
+      317781,
+      323498,
+      343172,
+      298580,
+      314957,
+      343174,
+      315374
+    ],
+    "source_count": 396,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704156290603,
+    "magnitude": 4,
+    "last_updated_time": 1704170166729,
+    "credibility": 2,
+    "id": 124595,
+    "categories": [
+      "Suspicious Activity",
+      "Malware Infection"
+    ],
+    "severity": 7,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704156320000,
+    "offense_type": 85,
+    "relevance": 2,
+    "domain_id": 0,
+    "offense_source": "Creating new executable files in the Windows folder",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704158468000,
+    "username_count": 0,
+    "description": "Excessive Firewall Denies Between Hosts\n containing Session Denied\n",
+    "rules": [
+      {
+        "id": 100033,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 620,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 2,
+    "follow_up": true,
+    "source_address_ids": [
+      343081
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "OCB_Zone.COM_B",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 43,
+    "start_time": 1704156008574,
+    "magnitude": 3,
+    "last_updated_time": 1704156307226,
+    "credibility": 2,
+    "id": 124594,
+    "categories": [
+      "Firewall Deny",
+      "ACL Deny"
+    ],
+    "severity": 4,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "PaSeries",
+        "type_id": 206,
+        "name": "OCB-INTERNET FW @ Palo Alto 01",
+        "id": 6063
+      },
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704156307000,
+    "offense_type": 0,
+    "relevance": 3,
+    "domain_id": 8,
+    "offense_source": "172.20.19.112",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704166866000,
+    "username_count": 0,
+    "description": "DNS: OPT Denial of Service\n",
+    "rules": [
+      {
+        "id": 100068,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 100066,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 24,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      297024,
+      343062,
+      54610
+    ],
+    "source_count": 3,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC",
+      "OCB_Zone.OCB_public"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704154985498,
+    "magnitude": 6,
+    "last_updated_time": 1704164592524,
+    "credibility": 3,
+    "id": 124593,
+    "categories": [
+      "Misc DoS"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "IntruShield",
+        "type_id": 25,
+        "name": "OCB-IPS @ McAfee NSP",
+        "id": 6576
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704154988000,
+    "offense_type": 2,
+    "relevance": 5,
+    "domain_id": 8,
+    "offense_source": "DNS: OPT Denial of Service",
+    "local_destination_address_ids": [
+      70220,
+      70245,
+      115527,
+      91913,
+      70225,
+      70247,
+      70252,
+      70256,
+      93095,
+      70217,
+      70226,
+      118323,
+      70207,
+      70224,
+      70213,
+      70246,
+      70211,
+      70218,
+      70258,
+      70289,
+      70242,
+      72712
+    ],
+    "local_destination_count": 22,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704165662000,
+    "username_count": 147,
+    "description": "Same Threat Detected on Multiple Hosts\n preceded by Same Threat Detected on Same Network Different Hosts\n containing DEVICE_PLUG Policy (RSD Monitor)\n",
+    "rules": [
+      {
+        "id": 139363,
+        "type": "CRE_RULE"
+      },
+      {
+        "id": 138663,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 627,
+    "flow_count": 0,
+    "assigned_to": "ntkiet",
+    "security_category_count": 1,
+    "follow_up": false,
+    "source_address_ids": [
+      282235,
+      311788,
+      343118,
+      342583,
+      324165,
+      337310,
+      335601,
+      321006,
+      317629,
+      285321,
+      293626,
+      313128,
+      294168,
+      343123,
+      343132,
+      310302,
+      324276,
+      343095,
+      287088,
+      343096,
+      343124,
+      342416,
+      302929,
+      320130,
+      287139,
+      342436,
+      293443,
+      343119,
+      343035,
+      230008,
+      284852,
+      311831,
+      334726,
+      339188,
+      285149,
+      341701,
+      343146,
+      230557,
+      308837,
+      314570,
+      229997,
+      227013,
+      323100,
+      218175,
+      336422,
+      335294,
+      343143,
+      338033,
+      339182,
+      266761,
+      339105,
+      335721,
+      282906,
+      339197,
+      292352,
+      343127,
+      284321,
+      311387,
+      342227,
+      291131,
+      282560,
+      286836,
+      298600,
+      334951,
+      282964,
+      285741,
+      284165,
+      284190,
+      343115,
+      285212,
+      310877,
+      342749,
+      282834,
+      342577,
+      343125,
+      311217,
+      312540,
+      343102,
+      291082,
+      342739,
+      294128,
+      343083,
+      259396,
+      305930,
+      287245,
+      265538,
+      292901,
+      298559,
+      343104,
+      308702,
+      307323,
+      343110,
+      318855,
+      298266,
+      343101,
+      343126,
+      341395,
+      274136,
+      284001,
+      226854,
+      311954,
+      249475,
+      231034,
+      343111,
+      229311,
+      329096,
+      311599,
+      282844,
+      283262,
+      343109,
+      291063,
+      310842,
+      326577,
+      284032,
+      284869,
+      293453,
+      286184,
+      341960,
+      334870,
+      327336,
+      343087,
+      340103,
+      336374,
+      343097,
+      343138,
+      316093,
+      316348,
+      285433,
+      322026,
+      323496,
+      335172,
+      318924,
+      322632,
+      298823,
+      285336,
+      342606,
+      288038,
+      340772,
+      290624,
+      315664,
+      343128,
+      260588,
+      325801,
+      343137,
+      53461,
+      343122,
+      307814,
+      319535,
+      341995,
+      287127,
+      319555,
+      298622,
+      343120,
+      307945,
+      307501,
+      307851,
+      330163,
+      341695,
+      288103,
+      285221,
+      311059,
+      342770,
+      335195,
+      343141,
+      281772,
+      284961,
+      337032,
+      317209,
+      339897,
+      284845,
+      342010,
+      300190,
+      343121,
+      315976,
+      313553,
+      343103,
+      295171,
+      284154,
+      342719,
+      309076,
+      332629,
+      343107,
+      309185,
+      335686,
+      337478,
+      337318,
+      337480,
+      264604,
+      324154,
+      340170,
+      343108,
+      290518,
+      342641,
+      343148,
+      304161,
+      297908,
+      291560,
+      291059,
+      342792,
+      343116,
+      341749,
+      295254,
+      341722,
+      343117,
+      305037,
+      282971,
+      341118,
+      341707,
+      285270,
+      337633,
+      307736,
+      343142,
+      218322,
+      290528,
+      297271,
+      287722
+    ],
+    "source_count": 216,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704154673215,
+    "magnitude": 5,
+    "last_updated_time": 1704163633197,
+    "credibility": 2,
+    "id": 124592,
+    "categories": [
+      "Unknown Policy Violation",
+      "Malware Infection"
+    ],
+    "severity": 10,
+    "policy_category_count": 1,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "McAfeeEpo",
+        "type_id": 93,
+        "name": "OCB-ENDPOINT @ McAfee EPO",
+        "id": 6569
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704154865000,
+    "offense_type": 85,
+    "relevance": 3,
+    "domain_id": 0,
+    "offense_source": "[9.3] Prod 16 - Block Bluetooth",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169455000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 50,
+    "flow_count": 0,
+    "assigned_to": "lvanloi",
+    "security_category_count": 5,
+    "follow_up": true,
+    "source_address_ids": [
+      331939,
+      343044,
+      343048,
+      343046,
+      343053,
+      343043,
+      343056,
+      343042,
+      342715
+    ],
+    "source_count": 9,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 5,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704126153766,
+    "magnitude": 6,
+    "last_updated_time": 1704169420672,
+    "credibility": 3,
+    "id": 124574,
+    "categories": [
+      "Buffer Overflow",
+      "Web Exploit",
+      "Code Injection",
+      "Suspicious Activity",
+      "Misc Exploit"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704126155000,
+    "offense_type": 1,
+    "relevance": 5,
+    "domain_id": 8,
+    "offense_source": "10.96.10.90",
+    "local_destination_address_ids": [
+      75646
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704162682000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 39,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 3,
+    "follow_up": true,
+    "source_address_ids": [
+      343043,
+      343029,
+      343094,
+      342715
+    ],
+    "source_count": 4,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704112383205,
+    "magnitude": 5,
+    "last_updated_time": 1704160606921,
+    "credibility": 2,
+    "id": 124559,
+    "categories": [
+      "Code Injection",
+      "Web Exploit",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704112385000,
+    "offense_type": 1,
+    "relevance": 4,
+    "domain_id": 8,
+    "offense_source": "10.96.10.190",
+    "local_destination_address_ids": [
+      112835
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704160876000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 51,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 5,
+    "follow_up": true,
+    "source_address_ids": [
+      343045,
+      343030,
+      342878,
+      342724,
+      280417,
+      340579,
+      343040
+    ],
+    "source_count": 7,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 5,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704107966522,
+    "magnitude": 4,
+    "last_updated_time": 1704158674351,
+    "credibility": 2,
+    "id": 124555,
+    "categories": [
+      "Web Exploit",
+      "Cross Site Scripting",
+      "Code Injection",
+      "Misc Exploit",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-AWS WAF @ ap-southeast-1",
+        "id": 7022
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704107967000,
+    "offense_type": 1,
+    "relevance": 3,
+    "domain_id": 8,
+    "offense_source": "10.102.64.22",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704169575000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 9,
+    "flow_count": 0,
+    "assigned_to": "tquocphong",
+    "security_category_count": 4,
+    "follow_up": true,
+    "source_address_ids": [
+      343043,
+      343130,
+      343023,
+      343006
+    ],
+    "source_count": 4,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 4,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704101249419,
+    "magnitude": 6,
+    "last_updated_time": 1704169526852,
+    "credibility": 3,
+    "id": 124552,
+    "categories": [
+      "Information Leak",
+      "Web Exploit",
+      "Suspicious Activity",
+      "Code Injection"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704101250000,
+    "offense_type": 1,
+    "relevance": 5,
+    "domain_id": 8,
+    "offense_source": "10.96.10.26",
+    "local_destination_address_ids": [
+      112788
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704170208000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 22,
+    "flow_count": 0,
+    "assigned_to": "tquocphong",
+    "security_category_count": 3,
+    "follow_up": true,
+    "source_address_ids": [
+      342618,
+      342828,
+      343037,
+      343017,
+      342612
+    ],
+    "source_count": 5,
+    "inactive": false,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704098467824,
+    "magnitude": 4,
+    "last_updated_time": 1704170163194,
+    "credibility": 2,
+    "id": 124546,
+    "categories": [
+      "Web Exploit",
+      "Information Leak",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-AWS WAF @ ap-southeast-1",
+        "id": 7022
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704098469000,
+    "offense_type": 1,
+    "relevance": 3,
+    "domain_id": 8,
+    "offense_source": "10.102.64.20",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704100255000,
+    "username_count": 0,
+    "description": "Information Leakage\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 1,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 1,
+    "follow_up": true,
+    "source_address_ids": [
+      343016
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 1,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704098336223,
+    "magnitude": 4,
+    "last_updated_time": 1704098336223,
+    "credibility": 2,
+    "id": 124545,
+    "categories": [
+      "Information Leak"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704098337000,
+    "offense_type": 1,
+    "relevance": 3,
+    "domain_id": 8,
+    "offense_source": "10.96.10.40",
+    "local_destination_address_ids": [
+      91976
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704161478000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 21,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 5,
+    "follow_up": true,
+    "source_address_ids": [
+      343015,
+      343048,
+      336753,
+      343043,
+      343037,
+      333181
+    ],
+    "source_count": 6,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 5,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704098270087,
+    "magnitude": 5,
+    "last_updated_time": 1704159297699,
+    "credibility": 2,
+    "id": 124544,
+    "categories": [
+      "Information Leak",
+      "Code Injection",
+      "Misc Exploit",
+      "Web Exploit",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704098271000,
+    "offense_type": 1,
+    "relevance": 4,
+    "domain_id": 8,
+    "offense_source": "10.96.10.210",
+    "local_destination_address_ids": [
+      112834
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704128459000,
+    "username_count": 0,
+    "description": "Other Application Attacks\n preceded by Command Execution\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 2,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 2,
+    "follow_up": true,
+    "source_address_ids": [
+      328987,
+      343043
+    ],
+    "source_count": 2,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "OCB_Zone.DC"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 0,
+    "start_time": 1704098204586,
+    "magnitude": 5,
+    "last_updated_time": 1704126333870,
+    "credibility": 2,
+    "id": 124543,
+    "categories": [
+      "Command Execution",
+      "Misc Exploit"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-EXT WAF-01 @ F5 ASM",
+        "id": 6571
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 1,
+    "first_persisted_time": 1704098206000,
+    "offense_type": 1,
+    "relevance": 4,
+    "domain_id": 8,
+    "offense_source": "10.96.10.155",
+    "local_destination_address_ids": [
+      112790
+    ],
+    "local_destination_count": 1,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704167468000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 33,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 5,
+    "follow_up": true,
+    "source_address_ids": [
+      342724,
+      343036,
+      343135,
+      343014,
+      343040
+    ],
+    "source_count": 5,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 5,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704098196357,
+    "magnitude": 4,
+    "last_updated_time": 1704165449491,
+    "credibility": 2,
+    "id": 124542,
+    "categories": [
+      "Information Leak",
+      "Suspicious Activity",
+      "Web Exploit",
+      "Misc Exploit",
+      "Cross Site Scripting"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-AWS WAF @ ap-southeast-1",
+        "id": 7022
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704098197000,
+    "offense_type": 1,
+    "relevance": 3,
+    "domain_id": 8,
+    "offense_source": "10.102.64.24",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704100255000,
+    "username_count": 0,
+    "description": "[WAF][Urgent] Command execution\n",
+    "rules": [
+      {
+        "id": 142376,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 3,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 2,
+    "follow_up": true,
+    "source_address_ids": [
+      343013
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 2,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704098012159,
+    "magnitude": 4,
+    "last_updated_time": 1704098012618,
+    "credibility": 2,
+    "id": 124541,
+    "categories": [
+      "Web Exploit",
+      "Command Execution Attempt"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-AWS WAF @ ap-southeast-1",
+        "id": 7022
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704098013000,
+    "offense_type": 0,
+    "relevance": 2,
+    "domain_id": 8,
+    "offense_source": "35.228.233.196",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  },
+  {
+    "last_persisted_time": 1704100255000,
+    "username_count": 0,
+    "description": "[OCB] Web Application Attack\n",
+    "rules": [
+      {
+        "id": 154863,
+        "type": "CRE_RULE"
+      }
+    ],
+    "event_count": 5,
+    "flow_count": 0,
+    "assigned_to": "ntnguyen",
+    "security_category_count": 3,
+    "follow_up": true,
+    "source_address_ids": [
+      343013
+    ],
+    "source_count": 1,
+    "inactive": true,
+    "protected": false,
+    "closing_user": null,
+    "destination_networks": [
+      "other"
+    ],
+    "source_network": "other",
+    "category_count": 3,
+    "close_time": null,
+    "remote_destination_count": 1,
+    "start_time": 1704098012159,
+    "magnitude": 4,
+    "last_updated_time": 1704098012618,
+    "credibility": 2,
+    "id": 124540,
+    "categories": [
+      "Information Leak",
+      "Web Exploit",
+      "Suspicious Activity"
+    ],
+    "severity": 8,
+    "policy_category_count": 0,
+    "log_sources": [
+      {
+        "type_name": "EventCRE",
+        "type_id": 18,
+        "name": "Custom Rule Engine-286 :: epocb",
+        "id": 6565
+      },
+      {
+        "type_name": "F5ASM",
+        "type_id": 213,
+        "name": "OCB-AWS WAF @ ap-southeast-1",
+        "id": 7022
+      }
+    ],
+    "closing_reason_id": null,
+    "device_count": 2,
+    "first_persisted_time": 1704098013000,
+    "offense_type": 1,
+    "relevance": 2,
+    "domain_id": 8,
+    "offense_source": "10.102.64.26",
+    "local_destination_address_ids": [],
+    "local_destination_count": 0,
+    "status": "OPEN"
+  }
+]

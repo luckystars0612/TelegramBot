@@ -1,0 +1,8 @@
+#virtual env
+bot/
+model_bots/__pycache__/
+configuration/__pycache__/
+build/
+dist/
+Telegram_Bot.egg-info
+*.py[cod]
